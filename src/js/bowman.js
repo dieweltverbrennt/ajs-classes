@@ -8,7 +8,7 @@ export default class Bowman extends Character {
   }
 
   damage(points) {
-    if(this.health === 0) {
+    if (this.health === 0) {
       throw new Error('Нельзя атаковать мертвого персонажа!');
     }
     this.health -= points * (1 - this.defence / 100);

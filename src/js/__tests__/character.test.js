@@ -1,7 +1,7 @@
 import Character from '../character';
 
 test('name length should be correct', () => {
-  const result = () =>  new Character('t', 'Daemon');
+  const result = () => new Character('t', 'Daemon');
   expect(result).toThrow('Имя должно содержать не менее 2 символов и не более 10!');
 });
 
@@ -34,5 +34,3 @@ test('should level up', () => {
   const expected = 2;
   expect(user.level).toBe(expected);
 });
-
-
