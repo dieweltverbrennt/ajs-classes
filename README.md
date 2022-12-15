@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/lc8e1k2hc6fsv4xx?svg=true)](https://ci.appveyor.com/project/dieweltverbrennt/ajs-classes)
